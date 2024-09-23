@@ -18,11 +18,24 @@
     position: relative;
     min-height: 100vh;
     z-index: 0;
-    background: black;
+    background: rgb(61, 60, 60);
     padding: 30px;
     justify-content: center;
     display: grid;
     font-family: 'poppins',sans-serif;
+
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+.login-forms{
+    position: relative;
+    min-height: 10vh;
+    z-index: 0;
+    background:  #272346;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
 
     grid-template-rows: 1fr auto 1fr;
     align-items: center;
@@ -37,8 +50,13 @@
     font-size: 2.5rem;
     font-weight: 400;
     color:gold;
-    font-family: 'poppins',sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
+    
+
+}
+.span{
+    color: blue;
 }
 .login-form h2{
     line-height: 40px;
@@ -64,10 +82,10 @@
 .login-form button{
     font-size: 10px;
     color: #fff;
-    width: 50%;
+    width: 6%;
     background:black;
     border: none;
-    padding: 14px 15px;
+    padding: 14px 80px;
     font-weight: 600;
     transition: 0.3s ease;
 }
@@ -75,7 +93,7 @@
 <body>
    
     <div class="login-form">
-        <h1>Token!!</h1>
+        <u><h1>Token!!</h1></u>
         <div class="container">
             <div class="main">
                 <div class="content">
@@ -87,6 +105,16 @@
                          </button>
                          
                      
+                </div>
+                
+    
+                <div class="login-forms">
+                     
+                    <div class="container">
+                        <h1>TRADE IS <span>ONGOING💹</span></h1> 
+                                 
+                    </div>
+                         
                 </div>
     
 </div>
